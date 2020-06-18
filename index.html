@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<script src="https://kit.fontawesome.com/8110287892.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="three.js"></script>
+<script type="text/javascript" src="OrbitControls.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+<script type="text/javascript" src="smoke_particle.js"></script>
+<script id = "logic" type="text/javascript" src="index.js"></script>
+<link rel="stylesheet" type="text/css" href="index.css">
+<script type="text/javascript" src="dragon.js"></script>
+<script type="text/javascript" src="howler.js"></script>
+<script type="text/javascript" src="smoke_particle.js"></script>
+<div id="world">
+	<p id = "title" class="text-center">Avanging Dragon</p>
+	<p id = "choice" class="text-center">Choose Your Dragon</p>
+	<div id = "controls" class="text-center">
+		<p class="text-left">Controls:</p>
+		<p class="text-left">Use directional arrow to move the dragon: UP, DOWN, LEFT, RIGHT</p>
+		<p class="text-left">Use space bar to throw fire</p>
+		<p class="text-left">Click P to pause the game</p>
+	</div>
+	<div id = "diff">Difficulty</div>
+	<div id = "radio" class="btn-group btn-group-toggle" data-toggle="buttons">
+	  <label class="btn btn-secondary active">
+	    <input type="radio" name="options" id="easy" autocomplete="off" checked> Easy
+	  </label>
+	  <label class="btn btn-secondary">
+	    <input type="radio" name="options" id="medium" autocomplete="off"> Medium
+	  </label>
+	  <label class="btn btn-secondary">
+	    <input type="radio" name="options" id="hard" autocomplete="off"> Hard
+	  </label>
+	</div>
+	<button type="button" id = "right" class="btn btn-outline-dark"><i id = "arrow" class="fas fa-angle-right"></i></button>
+	<button type="button" id = "left" class="btn btn-outline-dark"><i id = "arrow" class="fas fa-angle-left"></i></button>
+	<button type="button" id = "start" class="btn btn-outline-dark"><i id = "play" class="fas fa-play"></i></button>
+</div>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<script src="https://kit.fontawesome.com/8110287892.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script type="text/javascript" src="three.js"></script>
+<script type="text/javascript" src="OrbitControls.js"></script>
+<script type="text/javascript" src="howler.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+<script type="text/javascript" src="game.js"></script>
+<script type="text/javascript" src="explosion.js"></script>
+<script type="text/javascript" src="dragon.js"></script>
+<script type="text/javascript" src="smoke_particle.js"></script>
+<script type="text/javascript" src="game_utils.js"></script>
+<link rel="stylesheet" type="text/css" href="game.css">
+<div id="world">
+	<div id = "controls" class="text-center">
+		<p class="text-left">Controls:</p>
+		<p class="text-left">Use directional arrow to move the dragon: UP, DOWN, LEFT, RIGHT</p>
+		<p class="text-left">Use space bar to throw fire</p>
+		<p class="text-left">Click P to pause the game</p>
+	</div>
+	<div id = "f_p" class="text-center">
+		<p class="text-left">If Fire Power >= 25% smaller towers can be destroyed</p>
+		<p class="text-left">If Fire Power >= 50% smaller/medium towers can be destroyed</p>
+		<p class="text-left">If Fire Power >= 75% all towers can be destroyed</p>
+	</div>
+	<p id = "go" class="text-center">GAME OVER</p>
+	<button type="button" id = "again" class="btn btn-outline-dark">REPLAY</i></button>
+	<button type="button" id = "back" class="btn btn-outline-dark">BACK</i></button>
+	<p id = "distance" class="text-center">Distance: 0</p>
+	<div id="myProgress">
+	  <div id="myBar"></div>
+	</div>
+	<p id = "fire_power" class="text-center">Fire Power: 0%</p>
+</div>
+</html>

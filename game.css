@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Carter+One|Sigmar+One&display=swap');
+
+#world {
+  background-image: url('background.jpg');
+}
+
+#go {
+	position: absolute;
+	font-family: 'Sigmar One', cursive;
+	font-size: 70px;
+	color: #990000;
+	visibility: hidden;
+	top: 30%;
+    left: 40%;
+}
+
+#again {
+	position: absolute;
+	font-family: 'Carter One', cursive;
+	font-size: 30px;
+	color: #990000;
+	visibility: hidden;
+	top: 48%;
+    left: 58%;
+}
+
+#back {
+	position: absolute;
+	font-family: 'Carter One', cursive;
+	font-size: 30px;
+	color: #990000;
+	visibility: hidden;
+	top: 48%;
+    left: 42%;
+}
+
+#distance {
+	position: absolute;
+	font-family: 'Carter One', cursive;
+	font-size: 30px;
+	color: #990000;
+	top: 3%;
+	left: 1.5%;
+}
+
+#fire_power {
+	position: absolute;
+	font-family: 'Carter One', cursive;
+	font-size: 30px;
+	color: #990000;
+	top: 8%;
+	left: 1.5%;
+}
+
+#myProgress {
+	position: absolute;
+	top: 14%;
+	left: 1.5%;
+	width: 100%;
+	background-color: grey;
+}
+
+#myBar {
+	position: absolute;
+	width: 1%;
+	height: 30px;
+	background-color: #990000;
+	border-radius: 15%;
+}
+
+#controls {
+  position: absolute;
+  font-family: 'Carter One', cursive;
+  color: #990000;
+  top: 60%;
+  left: 35%;
+  font-size: 16px;
+  visibility: hidden;
+}
+
+#f_p {
+  position: absolute;
+  font-family: 'Carter One', cursive;
+  color: #990000;
+  top: 20%;
+  left: 1%;
+  font-size: 16px;
+  visibility: hidden;
+}
